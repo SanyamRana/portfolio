@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Menu, X, FileText } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { navLinks } from "@/data/navigation";
 
@@ -68,16 +68,7 @@ export default function Navbar() {
               ))}
             </div>
 
-            {/* Resume Button (Desktop) */}
-            <div className="hidden md:block">
-              <a
-                href="#contact"
-                className="flex items-center gap-2 px-5 py-2 rounded-full border border-primary/40 text-primary hover:text-white hover:bg-primary/15 transition-all duration-300 text-sm font-semibold tracking-wide hover:shadow-[0_0_15px_rgba(0,191,255,0.4)]"
-              >
-                <FileText className="w-4 h-4" />
-                <span>Resume</span>
-              </a>
-            </div>
+
 
             {/* Mobile Menu Button */}
             <div className="md:hidden flex items-center">
@@ -113,14 +104,7 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
-            <a
-              href="#contact"
-              onClick={() => setIsOpen(false)}
-              className="flex items-center justify-center gap-2 w-full px-5 py-3 rounded-full border border-primary/40 text-primary hover:text-white hover:bg-primary/10 transition-all text-sm font-semibold tracking-wide"
-            >
-              <FileText className="w-4 h-4" />
-              <span>Download Resume</span>
-            </a>
+
           </motion.div>
         )}
       </AnimatePresence>
