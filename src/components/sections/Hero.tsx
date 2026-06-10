@@ -75,7 +75,7 @@ export default function Hero() {
               </button>
 
               <a
-                href="/resume.pdf"
+                href="/Sanyam_Rana_ML_Resume.pdf"
                 download="Sanyam_Rana_Resume.pdf"
                 className="flex items-center gap-2 px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:scale-105 active:scale-95 transition-all text-sm font-semibold tracking-wide text-white cursor-pointer"
               >

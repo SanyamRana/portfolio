@@ -35,7 +35,7 @@ export const contactCards: ContactCard[] = [
   {
     name: "Resume Download",
     value: "Download Resume (PDF)",
-    link: "/resume.pdf",
+    link: "/Sanyam_Rana_ML_Resume.pdf",
     icon: <FileText className="w-5 h-5 text-white" />,
     onClick: undefined,
   },
